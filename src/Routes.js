@@ -6,6 +6,7 @@ import {
 import About from "./components/About";
 import Home from "./components/Home";
 import Users from "./components/Users";
+import Todos from "./components/Todos";
 
 export default () => (
   <Switch>
@@ -14,6 +15,9 @@ export default () => (
     </Route>
     <Route path="/users">
       <Users />
+    </Route>
+    <Route path="/todos">
+      <Todos />
     </Route>
     <Route path="/">
       <Home />
