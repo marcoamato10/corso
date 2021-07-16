@@ -31,9 +31,8 @@ const Show = () => {
       </pre>
     </>
   )
-// commento da cancellare
 }
-
+// da canc
 const List = () => {
   const [users, setUsers] = React.useState([]);
 
@@ -62,7 +61,6 @@ const List = () => {
     </>
   );
 }
-
 
 export default () => {
   let match = useRouteMatch()
